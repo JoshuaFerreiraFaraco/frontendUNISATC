@@ -1,305 +1,301 @@
-//console.log(10 === '10');
-//console.log(10 !== '10');
+// // console.log( 10 === '10' );
+// // console.log( 10 !== '10' );
 
-/* var a = 2;
-let b = 3;
-const c = 4;
+// var a = 2;
+// let b = 3;
+// const c = 4
 
-if(true){
-    var d = 2;
-    let e = 3;
-    const f = 4;
-    // console.log(a)
-    // console.log(b)
-    // console.log(c)
-} */
+// if(true) {
+//     var d = 2;
+//     let e = 3;
+//     const f = 4;
+//     // console.log(a)
+//     // console.log(b)
+//     // console.log(c)
+// }
+// // console.log(d)
+// // console.log(e)
+// // console.log(f)
+// const g = 1, h = 2, i = 3;
 
-/* console.log(d) */
+// const user = 'rodrigo'
+// if(user === 'rodrigo') {
+//     console.log('Usuário logado..!')
+// } else {
+//     console.log('Usuário não cadastrado...!')
+// }
 
-/* const g = 1, h = 2, i = 3 */
+// // operador ternário
+// // user === 'rodrig' ? console.log('Usuário logado..!') : console.log('Usuário não cadastrado...!')
 
-/* const user = 'rodrigo'
-if(user === 'rodrigo'){
-    // console.log('Usuario logado..!');
-} else {
-    // console.log('Usuario nao cadastrado...!');
-} */
 
-// user === 'rodrigo' ? console.log('Usuario logado..!') : console.log('Usuario nao cadastrado...!');
+// const curso = 'SW';
+// switch(curso) {
+//     case 'SW':
+//         // console.log('Engenharia de Software');
+//         break;
+//     case 'ENC':
+//         console.log('Engenharia da Computação');
+//         break;
+//     default:
+//         console.log('Curso não cadastrado...!');
+// }
 
-/* const curso = 'SW'
-switch (curso) {
-    case 'SW':
-        // console.log('Engenharia de Software');
-        break;
-    case 'ENC':
-        // console.log('Engenharia da Computacao');
-        break;
-    default:
-       // console.log('Curso não cdastrado') 
-}; */
+// let j = 0;
+// while(j < 10) {
+//     // j++;
+//     // console.log(j);
+//     j++;
+// }
 
-/* let j = 0;
-while(j < 10){
-    // j++;
-    //console.log(j);
-    j++;
-}; */
+// let k = 0;
+// do {
+//     // console.log(k);
+//     k++;
+// } while(k < 10);
 
-/* let k = 0;
-do {
-    // console.log(k)
-    k++;
-} while (k < 10); */
+// for(let i = 0; i < 10; i++) {
+//     // console.log(i);
+// }
 
-/* for(let i = 0; i < 10; i++){
-    // console.log(i);
-} */
+// for(let i = 0; i < 10; i++) {
+//     if(i === 3) {
+//         break;
+//     }
+//     // console.log(i);
+// }
 
-/* for(let i = 0; i < 10; i++){
-    if(i === 3){
-        break;
-    }
-    // console.log(i);
-} */
+// for(let i = 0; i < 10; i++) {
+//     if(i === 3) {
+//         continue;
+//     }
+//     // console.log(i);
+// }
 
-//funcao sem passagem de parametro e sem retorno
+// // função sem passagem de parâmetro e sem retorno
+// function myFunction() {
+//     console.log('oi');
+// }
 
-/* function myFunction() {
-    console.log('oi');
-} */
+// // myFunction();
 
-// myFunction()
+// const myFunction2 = () => {
+//     console.log('oi arrow');
+// }
 
-/* const myFunction2 = () => {
-    console.log('oi arrow');
-} */
+// // myFunction2();
 
-// myFunction2()
+// // função com passagem de parâmetro e sem retorno
+// function defineParOuImpar(numero) {
+//     if(numero % 2 === 0) {
+//         console.log(`${numero} é par`);
+//     } else {
+//         console.log(`${numero} é ímpar`);
+//     }
+// }
 
-//funcao com passagem de parametro e sem retorno
-/* function defineParOuImpar(numero) { 
-    if(numero % 2 === 0){
-        console.log(`${numero} é par`);
-    } else {
-        console.log(`${numero} é impar`);
-    }
-} */
+// // defineParOuImpar(6);
 
-// defineParOuImpar(5);
+// const defineParOuImpar2 = (numero) => {
+//     numero % 2 === 0 ? console.log(`${numero} é par`) : console.log(`${numero} é ímpar`);
+// }
 
-/* const defineParOuImpar2 = (numero) => {
-    numero % 2 === 0 ? console.log(`${numero} é par`) : console.log(`${numero} é impar`);
-} */
+// // defineParOuImpar2(7);
 
-// defineParOuImpar2(6);
+// // função com passagem de parâmetro e com retorno
+// function calculaRaiz(numero) {
+//     return Math.sqrt(numero)
+// }
 
-//funcao com passagem de parametro e com retorno
-/* function calculaRaiz(numero) { 
-    return Math.sqrt(numero)
-} */
+// const resultado = calculaRaiz(81);
+// // console.log(resultado);
 
-/* const resultado = calculaRaiz(9);
-console.log(resultado);
-console.log(calculaRaiz(81)); */
+// // ARRAYS
 
-//ARRAYS
-
-//let nomes = ['joão', 'maria', 'rodrigo'];
+// let nomes = ['joão', 'maria', 'rodrigo'];
 // // console.log(nomes[0]);
-// console.log(typeof nomes);
-// console.log(nomes.length);
-// console.log(Object.keys(nomes));
+// // console.log(nomes);
+// // console.log(typeof nomes);
+// // console.log(nomes.length);
+// // console.log(Object.keys(nomes));
 
-// Métodos
+// // métodos
+// nomes.unshift('nevio'); // insere no início
+// nomes.push('alice');
+// // console.log(nomes);
+// // nomes.pop();
+// // nomes.shift();
+// // console.log(nomes);
 
-//nomes.unshift('nevio'); // insere no inicio
-//nomes.push('alice'); // insere no final
-// console.log(nomes);
-// nomes.pop(); // remove do final
-// nomes.shift(); // remove do inicio
-// console.log(nomes);
+// const filteredArray = nomes.filter((nome) => nome.length > 4);
+// // console.log(filteredArray);
 
-/* const filteredArray = nomes.filter((nome) => nome.length === 4); */
-// console.log(filteredArray);
+// const foundName = nomes.find((nome) => nome.length > 5);
+// // console.log(foundName);
 
-/* const foundName = nomes.find((nome) => nome.length === 4); */
-// console.log(foundName);
+// const foundNameIndex = nomes.findIndex((nome) => nome.length > 5);
+// // console.log(foundNameIndex);
 
-/* const foundNameIndex = nomes.findIndex((nome) => nome.length === 4); */
-// console.log(foundNameIndex);
+// // console.log(nomes);
+// // const slicedNames = nomes.slice(0,4);
+// const slicedNames = nomes.slice(2);
+// // console.log(slicedNames);
 
-/* const slicedNames = nomes.slice(2); */
-// console.log(slicedNames);
+// const reversedNames = nomes.reverse();
+// // console.log(reversedNames);
 
-/* const reversedNames = nomes.reverse(0); */
-// console.log(reversedNames);
+// const numeros = [2, 3, 4, 7, 8];
+// for(let i = 0; i < numeros.length; i++) {
+//     // console.log(numeros[i]);
+// };
 
+// for(let num of numeros) {
+//     // console.log(num);
+// }
 
-/* const numeros = [2,3,4,7,8];
-for(let i = 0; i < numeros.length; i++){
-    // console.log(numeros[i])
-}
+// // numeros.forEach(num => console.log(num));
+// // numeros.map(num => console.log(num));
+// const mappedNumbers = numeros.map((num) => num * 2);
+// // console.log(mappedNumbers);
 
-for(let num of numeros){
-    // console.log(num);
-} */
+// // OBJETOS
+// // forma literal
+// const aluno = {
+//     id: 1,
+//     nome: 'joão',
+//     email: 'joao@email.com',
+//     info: function () {
+//         console.log(`Nome: ${this.nome}\nEmail: ${this.email}`)
+//     }
+// }
+// // console.log(aluno);
+// // console.log(aluno.nome);
+// // aluno.info()
+// aluno.matricula = '012345';
+// delete aluno.id;
+// // console.log(aluno);
 
-// numeros.forEach(num => console.log(num));
-// numeros.map(num => console.log(num));
-/* const mappedNumbers = numeros.map((num) => num * 2); */
-// console.log(mappedNumbers);
+// // via função construtora
+// const pessoa = new Object();
+// pessoa.nome = 'maria';
+// pessoa.idade = 20;
+// pessoa.email = 'maria@email.com';
+// // console.log(pessoa);
 
-// OBJETOS
-// forma literal
-/* const aluno = {
-    id: 1,
-    nome: 'joao',
-    email: 'joao@email.com',
-    info: function() {
-        console.log(`Nome: ${this.nome}\nEmail: ${this.email}`)
-    }
-} */
-// console.log(aluno);
-// console.log(aluno.nome);
-// aluno.info();
+// class Carro {
+//     #potencia; // atributo privado
+//     constructor(marca, cor, potencia) {
+//         this.marca = marca;
+//         this.cor = cor;
+//         this.#potencia = potencia; // atributo privado
+//     }
 
-/* aluno.matricula = '012345';
-delete aluno.id */
-// console.log(aluno);
+//     getPotencia() {
+//         return this.#potencia;
+//     }
 
-// via funcao construtora 
-/* const pessoa = new Object();
-pessoa.nome = 'maria';
-pessoa.idade = 20;
-pessoa.email = 'maria@email.com'; */
-// console.log(pessoa);
+// }
 
-/* class Carro {
-    #potencia // atributo privado
-    constructor(marca, cor, potencia) {
-        this.marca = marca;
-        this.cor = cor;
-        this.#potencia = potencia; // atributo privado      
-    }
-
-    getPotencia(){
-        return this.#potencia;
-    }
-}
-
-const carro = new Carro('vw', 'prata', '65'); */
+// const carro = new Carro('vw','prata', '65');
 // console.log(carro);
 // console.log(carro.getPotencia());
 
+
 // Acesso e manipulação do DOM
-/* console.log(document.body.childNodes); */
+// console.log(document.body);
+// console.log(document.body.childNodes);
+// console.log(document.body.childNodes[3]);
+// console.log(document.body.childNodes[3].childNodes[1].textContent);
 
-//Seleção do elemento pelo nome da tag.
-/* const nameTag = document.getElementsByTagName('h2');
-console.log(nameTag); */
+// seleção do elemento pelo nome da tag
+// const nameTag = document.getElementsByTagName('h2');
+// // console.log(nameTag);
+// // console.log(nameTag[0].textContent);
+// // console.log(nameTag[1].textContent);
 
-//selecionando por id
-/* const title = document.getElementById("title");
-console.log(title);
-console.log(title.textContent); */
+// // seleção de elemento pelo nome do ID
+// const nameId = document.getElementById('title')
+// // console.log(nameId);
+// // console.log(nameId.textContent);
 
-//selecionando por classe
-/* const posts = document.getElementsByClassName("posts");
-console.log(posts);
-console.log(posts[0].textContent); */
+// // seleção do elemento pelo nome da classe
+// const nameClass = document.getElementsByClassName('posts');
+// // console.log(nameClass);
+// // console.log(nameClass[0].textContent);
 
-//selecionando por CSS
-/* const postsQuery = document.querySelectorAll(".posts");
-console.log(posts);
-console.log(posts[0].textContent);
+// // seleção via css
+// const nameQueryAll = document.querySelectorAll('.posts');
+// // console.log(nameQueryAll[1].textContent);
 
-const container = document.querySelector("#container");
-console.log(container);
-console.log(container.textContent); */
+// const nameQuery = document.querySelector('#title');
+// // console.log(nameQuery.textContent);
+// nameQuery.style.color = 'red';
 
-//Serve para adicionar um novo elemento dentro de outro elemento pai.
-/* const p2 = document.createElement("p");
-console.log(p2);
-p2.textContent = 'Eu sou o novo parágrafo';
-console.log(p2);
-posts[0].appendChild(p2); */
+// // adicionar novo elemento dentro um elemento pai
+// const p2 = document.createElement('p');
+// p2.textContent = 'oi, eu sou o novo parágrafo';
+// // console.log(p2)
+// nameQueryAll[0].appendChild(p2);
 
-//Cria um nó de texto que pode ser inserido em um elemento já existente.
-/* const myText = document.createTextNode("Inserindo novo título na div container");
-const h3 = document.createElement("h3");
-h3.appendChild(myText);
-container.appendChild(h3); */
+// const container = document.getElementById('container');
 
-//Eventos
+// const text = document.createTextNode('novo título na div container');
+// const h3 = document.createElement('h3');
+// h3.appendChild(text);
+// container.appendChild(h3);
 
-//Adição de eventos
-/* const btn = document.querySelector("#button");
-btn.addEventListener("mouseenter", function () {
- btn.style.backgroundColor = "red";
- console.log("Mouse sobre o botão");
+// Eventos
+const btn = document.querySelector('#button');
+
+btn.addEventListener('mouseenter', function () {
+    btn.style.backgroundColor = 'red';
+    // console.log('Mouse sobre o botão');
 });
 
-btn.addEventListener("mouseleave", function () {
- btn.style.backgroundColor = "blue";
- console.log("Mouse deixou o botão");
+btn.addEventListener('mouseleave', function () {
+    btn.style.backgroundColor = 'blue';
+    // console.log('Mouse fora do botão');
+});
+
+btn.addEventListener('click', function () {
+    console.log('Clicou');
+});
+
+const mouse = document.querySelector('#mouse');
+mouse.addEventListener('dblclick', function () {
+    console.log('Duplo Clique');
+});
+
+mouse.addEventListener('mousedown', function () {
+    console.log('Apertou');
+});
+
+mouse.addEventListener('mouseup', function (e) {
+    console.log(e);
+    // console.log('Soltou');
+});
+
+document.addEventListener('mousemove', function (e) {
+    // console.log(`X: ${e.x}`);
+    // console.log(`Y: ${e.y}`);
 })
 
-btn.addEventListener("click", function () {
- console.log("Clicou aqui!");
-}); */
-
-/* const mouse = document.querySelector("#mouse");
-
-mouse.addEventListener("dblclick", () => {
- console.log("Clique duplo");
-});
-mouse.addEventListener("mousedown", () => {
- console.log("Pressionou botão");
-});
-mouse.addEventListener("mouseup", () => {
- console.log("Soltou botão");
-}); */
-
-//Argumento de evento
-
-/* const title = document.querySelector("#title");
-title.addEventListener("click", (e) => {
- console.log(e);
-}); */
-
-//coordenadas X-Y de movimento do mouse
-/* document.addEventListener("mousemove", (e) => {
- console.log(`Eixo X: ${e.x}`);
- console.log(`Eixo Y: ${e.y}`);
-}); */
-
-//Eventos do teclado
-
-/* document.addEventListener("keydown", (e) => {
- console.log(`Pressionou ${e.key}`);
+document.addEventListener('keydown', function (e) {
+    console.log(`Pressionou: ${e.key}`);  
 });
 
-document.addEventListener("keyup", (e) => {
- console.log(`Soltou ${e.key}`);
-}); */
-
-//Removendo efeito padrão
-
-/* const a = document.querySelector("a");
-a.addEventListener("click", (e) => {
- e.preventDefault();
- console.log("Desabilitou ação do link");
-}); */
-
-//Evento de focus
-
-/* const input = document.querySelector("#input");
-
-input.addEventListener("focus", (e) => {
- console.log("Efeito de focus!");
+// remoção de evento
+const link = document.querySelector('a');
+link.addEventListener('click', function (e) {
+    e.preventDefault();
+    console.log('clicou no link');
 });
 
-input.addEventListener("blur", (e) => {
- console.log("Efeito de blur!");
-}); */
+const input = document.querySelector('#input');
+input.addEventListener('focus', function () {
+    console.log('Clicou dentro do input');
+});
+
+input.addEventListener('blur', function () {
+    console.log('Clicou fora do input');
+})
